@@ -1,3 +1,5 @@
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/) [![Jupyter](https://img.shields.io/badge/Jupyter-notebook-F37626.svg)](https://jupyter.org/) [![SHAP](https://img.shields.io/badge/SHAP-explainability-FF6B6B.svg)](https://shap.readthedocs.io/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 # Heart disease risk from tabular clinical data
 
 A transparent, reproducible Jupyter notebook that builds a binary coronary-disease
@@ -58,8 +60,8 @@ metrics overstate cross-site transportability.
 ## Reproducing the notebook
 
 ```bash
-git clone https://github.com/DArmandoSalinas/CardioVascular_Risk.git
-cd CardioVascular_Risk
+git clone https://github.com/DArmandoSalinas/HeartDisease-Predictor.git
+cd HeartDisease-Predictor
 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -91,6 +93,6 @@ copy and have a Kaggle API token configured.
 ## License and contact
 
 Dataset: subject to its original UCI / Kaggle terms.
-Code: MIT (add a `LICENSE` file if you want this to be binding).
+Code: MIT — see [LICENSE](LICENSE).
 
 **Diego Armando Salinas Lugo** — [salinas.diegoarmando03@gmail.com](mailto:salinas.diegoarmando03@gmail.com)
